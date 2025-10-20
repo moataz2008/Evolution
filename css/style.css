@@ -1,3 +1,7 @@
+/* --------------------------start global rules-------------------------- */
+:root{
+    --main-color: #2196f3;
+}
 *{
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
@@ -8,3 +12,57 @@ body{
     margin: 0;
 
 }
+/* --------------------------end global rules-------------------------- */
+/* --------------------------start header-------------------------- */
+header{
+
+}
+header .container{
+    width: 100%;
+    padding: 0 3.2rem;
+}
+header .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .container .content h1{
+    font-size: 2rem;
+}
+header .container .content h1 a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+header .container .content .links{
+    width: 100%;
+    margin: auto;
+}
+header .container .content .links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .container .content .links ul li{
+}
+header .container .content .links ul li a .articles::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--main-color);
+    
+}
+header .container .content .links ul li:hover{
+    background-color: #c4bfff;
+}
+
+    header .container .content .links ul li a{
+    text-decoration: none;
+    color: #290000;
+}
+/* --------------------------end header-------------------------- */
